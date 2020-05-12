@@ -1,0 +1,48 @@
+body {
+    background-color: #021b3a;
+    /* background-image: url('url_here'); */
+     font-family: Arial;
+     /* 'vh' View Port Heigh = define que vai se adaptativo a tela que o size está abrindo */
+     /* O comando auto, poderia ser substituido por vw, mas poderia distorçer as imgens de fundo, por isso usamos o auto que ajusta o conteúdo */
+     background-size: auto 100vh;
+     height: 100vh;
+   }
+   
+   .menu {
+     background-color: white;
+   }
+   
+   a {
+     text-decoration: none;
+     color: toal;
+   }
+   
+   a:hover {
+     text-decoration: underline;
+   }
+   .menu ul {
+     /*Força todo mundo a ficar um ao lado do outro*/
+     display: flex; 
+     /*Coloca espaço na coluna do meio e joga as laterias para os cantos*/
+     /* justify-content: space-between; */
+     /*Coloca espaçamento entre todos items da ul */
+     /*Só funciona com display: flex*/
+     justify-content: space-around;
+   }
+   
+   .menu li{
+     list-style: none;
+     
+   }
+   
+   .site-subtitle,
+   .site-title {
+     text-align: center;
+     color: rgb(152, 198, 240);
+   }
+   
+   .site-subtitle{
+     font-style: italic;
+     font-size: 20px;
+   }
+   
